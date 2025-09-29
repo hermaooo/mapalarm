@@ -4,6 +4,10 @@ Um pequeno projeto de um alarme, onde, eu defino o raio da localização e, caso
 
 Nesse projeto foi utilizado a API do Google Maps, especificamente a Maps Javascript API e a Places API.
 
+Para rodar esse projeto você deve ter uma chave API do Google Maps.
+
+Dentro do arquivo App.jsx, você deve substituir o espaço em branco na constante API_KEY (linha 5) pela sua própria chave entre os parênteses.
+
 As funcionalidades são:
 
 - Escolher um ponto no mapa, manualmente ou usando a caixa de texto.
