@@ -2,7 +2,7 @@
 
 Um pequeno projeto de um alarme, onde, eu defino o raio da localização e, caso eu saia ou entre dentro desse raio, o programa dispara um alarme.
 
-Nesse projeto foi utilizado a API do Google Maps, especificamente a Maps Javascript API e a Places API.
+Nesse projeto foi utilizado React + Vite e a API do Google Maps, especificamente a Maps Javascript API e a Places API.
 
 Para rodar esse projeto você deve ter uma chave API do Google Maps.
 
