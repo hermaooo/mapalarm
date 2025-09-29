@@ -1,17 +1,12 @@
-# React + Vite
+# Alarme Baseado em Localização
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um pequeno projeto de um alarme, onde, eu defino o raio da localização e, caso eu saia ou entre dentro desse raio, o programa dispara um alarme.
 
-Currently, two official plugins are available:
+Nesse projeto foi utilizado a API do Google Maps, especificamente a Maps Javascript API e a Places API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+As funcionalidades são:
 
-## React Compiler
-
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# mapalarm" 
+- Escolher um ponto no mapa, manualmente ou usando a caixa de texto.
+- Definir o tamanho do raio. 100m a 5000m com incrementos de 100m, e, 5000m a 15000m com incrementos de 500m.
+- Definir se o alarme deve ser acionado ao entrar no raio ou sair do raio.
+- Resetar o alarme após acionado.
