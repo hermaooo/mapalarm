@@ -10,3 +10,5 @@ As funcionalidades são:
 - Definir o tamanho do raio. 100m a 5000m com incrementos de 100m, e, 5000m a 15000m com incrementos de 500m.
 - Definir se o alarme deve ser acionado ao entrar no raio ou sair do raio.
 - Resetar o alarme após acionado.
+
+Para executar, baixe os arquivos, e, na pasta aonde estão os arquivos execute npm install, após isso, npm run dev para rodar na porta local 5174. Para alterar a porta apenas modifique ela no arquivo vite.config.js.
